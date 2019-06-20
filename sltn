@@ -1,0 +1,7 @@
+a=int(input())
+b=[]
+for j in range(len(a)):
+    for i in a[:j+1:]:
+        if j not in b:
+            b.append(j)
+print(len(b))
